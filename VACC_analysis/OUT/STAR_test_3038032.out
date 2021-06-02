@@ -1,0 +1,128 @@
+Starting sbatch script myscript.sh at:Wed May 12 21:35:14 EDT 2021
+  running host:    shared5
+  assigned nodes:  shared5
+  jobid:           3038032
+SRR13081219_GSM4913510_whole_blood_DU18-02S0011616_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081219_GSM4913510_whole_blood_DU18-02S0011616_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081219_GSM4913510_whole_blood_DU18-02S0011616_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081219_GSM4913510_whole_blood_DU18-02S0011616_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081219_GSM4913510_whole_blood_DU18-02S0011616_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 12 21:35:14 ..... started STAR run
+May 12 21:35:15 ..... loading genome
+May 12 21:35:18 ..... started mapping
+May 12 22:10:12 ..... finished mapping
+May 12 22:10:18 ..... started sorting BAM
+May 12 22:19:54 ..... finished successfully
+SRR13081230_GSM4913521_whole_blood_DU18-02S0011658_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081230_GSM4913521_whole_blood_DU18-02S0011658_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081230_GSM4913521_whole_blood_DU18-02S0011658_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081230_GSM4913521_whole_blood_DU18-02S0011658_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081230_GSM4913521_whole_blood_DU18-02S0011658_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 12 22:19:55 ..... started STAR run
+May 12 22:19:55 ..... loading genome
+May 12 22:19:56 ..... started mapping
+May 12 23:09:27 ..... finished mapping
+May 12 23:09:28 ..... started sorting BAM
+May 12 23:18:40 ..... finished successfully
+SRR13081234_GSM4913525_whole_blood_DU18-02S0011657_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081234_GSM4913525_whole_blood_DU18-02S0011657_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081234_GSM4913525_whole_blood_DU18-02S0011657_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081234_GSM4913525_whole_blood_DU18-02S0011657_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081234_GSM4913525_whole_blood_DU18-02S0011657_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 12 23:18:41 ..... started STAR run
+May 12 23:18:41 ..... loading genome
+May 12 23:18:45 ..... started mapping
+May 13 00:05:49 ..... finished mapping
+May 13 00:05:50 ..... started sorting BAM
+May 13 00:17:34 ..... finished successfully
+SRR13081237_GSM4913528_whole_blood_DU18-02S0011673_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081237_GSM4913528_whole_blood_DU18-02S0011673_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081237_GSM4913528_whole_blood_DU18-02S0011673_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081237_GSM4913528_whole_blood_DU18-02S0011673_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081237_GSM4913528_whole_blood_DU18-02S0011673_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 00:17:35 ..... started STAR run
+May 13 00:17:35 ..... loading genome
+May 13 00:17:37 ..... started mapping
+May 13 01:17:21 ..... finished mapping
+May 13 01:17:22 ..... started sorting BAM
+May 13 01:29:35 ..... finished successfully
+SRR13081238_GSM4913529_whole_blood_DU18-02S0011674_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081238_GSM4913529_whole_blood_DU18-02S0011674_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081238_GSM4913529_whole_blood_DU18-02S0011674_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081238_GSM4913529_whole_blood_DU18-02S0011674_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081238_GSM4913529_whole_blood_DU18-02S0011674_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 01:29:36 ..... started STAR run
+May 13 01:29:36 ..... loading genome
+May 13 01:29:38 ..... started mapping
+May 13 02:31:57 ..... finished mapping
+May 13 02:31:58 ..... started sorting BAM
+May 13 02:49:56 ..... finished successfully
+SRR13081254_GSM4913545_whole_blood_DU18-02S0011645_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081254_GSM4913545_whole_blood_DU18-02S0011645_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081254_GSM4913545_whole_blood_DU18-02S0011645_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081254_GSM4913545_whole_blood_DU18-02S0011645_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081254_GSM4913545_whole_blood_DU18-02S0011645_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 02:49:57 ..... started STAR run
+May 13 02:49:57 ..... loading genome
+May 13 02:50:05 ..... started mapping
+May 13 03:30:22 ..... finished mapping
+May 13 03:30:23 ..... started sorting BAM
+May 13 03:41:30 ..... finished successfully
+SRR13081262_GSM4913553_whole_blood_DU18-02S0011650_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081262_GSM4913553_whole_blood_DU18-02S0011650_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081262_GSM4913553_whole_blood_DU18-02S0011650_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081262_GSM4913553_whole_blood_DU18-02S0011650_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081262_GSM4913553_whole_blood_DU18-02S0011650_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 03:41:31 ..... started STAR run
+May 13 03:41:31 ..... loading genome
+May 13 03:41:34 ..... started mapping
+May 13 04:28:06 ..... finished mapping
+May 13 04:28:06 ..... started sorting BAM
+May 13 04:38:51 ..... finished successfully
+SRR13081267_GSM4913558_whole_blood_DU18-02S0011667_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081267_GSM4913558_whole_blood_DU18-02S0011667_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081267_GSM4913558_whole_blood_DU18-02S0011667_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081267_GSM4913558_whole_blood_DU18-02S0011667_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081267_GSM4913558_whole_blood_DU18-02S0011667_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 04:38:52 ..... started STAR run
+May 13 04:38:52 ..... loading genome
+May 13 04:38:57 ..... started mapping
+May 13 05:24:35 ..... finished mapping
+May 13 05:24:36 ..... started sorting BAM
+May 13 05:36:07 ..... finished successfully
+SRR13081270_GSM4913561_whole_blood_DU18-02S0011664_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081270_GSM4913561_whole_blood_DU18-02S0011664_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081270_GSM4913561_whole_blood_DU18-02S0011664_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081270_GSM4913561_whole_blood_DU18-02S0011664_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081270_GSM4913561_whole_blood_DU18-02S0011664_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 05:36:09 ..... started STAR run
+May 13 05:36:09 ..... loading genome
+May 13 05:36:11 ..... started mapping
+May 13 06:27:48 ..... finished mapping
+May 13 06:27:49 ..... started sorting BAM
+May 13 06:39:53 ..... finished successfully
+SRR13081341_GSM4913632_whole_blood_DU09-02S0000114_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081341_GSM4913632_whole_blood_DU09-02S0000114_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081341_GSM4913632_whole_blood_DU09-02S0000114_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081341_GSM4913632_whole_blood_DU09-02S0000114_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081341_GSM4913632_whole_blood_DU09-02S0000114_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 06:39:54 ..... started STAR run
+May 13 06:39:54 ..... loading genome
+May 13 06:39:56 ..... started mapping
+May 13 07:16:38 ..... finished mapping
+May 13 07:16:38 ..... started sorting BAM
+May 13 07:24:08 ..... finished successfully
+SRR13081345_GSM4913635_whole_blood_DU09-02S0000115_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081345_GSM4913635_whole_blood_DU09-02S0000115_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081345_GSM4913635_whole_blood_DU09-02S0000115_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081345_GSM4913635_whole_blood_DU09-02S0000115_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081345_GSM4913635_whole_blood_DU09-02S0000115_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 07:24:09 ..... started STAR run
+May 13 07:24:09 ..... loading genome
+May 13 07:24:11 ..... started mapping
+May 13 08:15:55 ..... finished mapping
+May 13 08:15:56 ..... started sorting BAM
+May 13 08:26:33 ..... finished successfully
+SRR13081356_GSM4913645_whole_blood_DU09-02S0000150_batch1_DU09-02S0000150_batch2_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081356_GSM4913645_whole_blood_DU09-02S0000150_batch1_DU09-02S0000150_batch2_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081356_GSM4913645_whole_blood_DU09-02S0000150_batch1_DU09-02S0000150_batch2_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081356_GSM4913645_whole_blood_DU09-02S0000150_batch1_DU09-02S0000150_batch2_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081356_GSM4913645_whole_blood_DU09-02S0000150_batch1_DU09-02S0000150_batch2_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 08:26:35 ..... started STAR run
+May 13 08:26:35 ..... loading genome
+May 13 08:26:36 ..... started mapping
+
+gzip: SRR13081356_GSM4913645_whole_blood_DU09-02S0000150_batch1_DU09-02S0000150_batch2_Homo_sapiens_RNA-Seq_2.fastq.gz: unexpected end of file
+
+EXITING because of FATAL ERROR in reads input: quality string length is not equal to sequence length
+@SRR13081356.42572136
+CCAGCGAACACAGCTCCAAAGAGAACTAGGCCAGCAATGATGCCCACGATGGGGATGGTGGGCTGGGAAGACGGCTCCCATCTCAGGGTGAGGGGCTTGGG
+FFFFFF
+SOLUTION: fix your fastq file
+
+May 13 08:55:17 ...... FATAL ERROR, exiting
+SRR13081363_GSM4913651_whole_blood_DU09-02S0000156_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081363_GSM4913651_whole_blood_DU09-02S0000156_Homo_sapiens_RNA-Seq_2.fastq.gz
+	STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn SRR13081363_GSM4913651_whole_blood_DU09-02S0000156_Homo_sapiens_RNA-Seq_1.fastq.gz SRR13081363_GSM4913651_whole_blood_DU09-02S0000156_Homo_sapiens_RNA-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix SRR13081363_GSM4913651_whole_blood_DU09-02S0000156_Homo_sapiens_RNA_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+	STAR version: 2.7.9a   compiled: 2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 08:55:19 ..... started STAR run
+May 13 08:55:19 ..... loading genome
+May 13 08:55:20 ..... started mapping
+May 13 09:37:22 ..... finished mapping
+May 13 09:37:22 ..... started sorting BAM
+May 13 09:46:51 ..... finished successfully

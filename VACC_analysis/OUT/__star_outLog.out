@@ -1,0 +1,47 @@
+STAR version=2.7.9a
+STAR compilation time,server,dir=2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+##### Command Line:
+STAR --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/ --runMode alignReads --genomeLoad LoadAndKeep --runThreadN 6 --readFilesIn *-Seq_1.fastq.gz *-Seq_2.fastq.gz --readFilesCommand zcat --outFileNamePrefix *_star_out --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard --limitBAMsortRAM 31000000000
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 *_star_out
+###### All USER parameters from Command Line:
+genomeDir                     /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/     ~RE-DEFINED
+runMode                       alignReads        ~RE-DEFINED
+genomeLoad                    LoadAndKeep     ~RE-DEFINED
+runThreadN                    6     ~RE-DEFINED
+readFilesIn                   *-Seq_1.fastq.gz   *-Seq_2.fastq.gz        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+outFileNamePrefix             *_star_out     ~RE-DEFINED
+outSAMtype                    BAM   SortedByCoordinate        ~RE-DEFINED
+outSAMunmapped                Within        ~RE-DEFINED
+outSAMattributes              Standard        ~RE-DEFINED
+limitBAMsortRAM               31000000000     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           alignReads   
+runThreadN                        6
+genomeDir                         /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/
+genomeLoad                        LoadAndKeep
+readFilesIn                       *-Seq_1.fastq.gz   *-Seq_2.fastq.gz   
+readFilesCommand                  zcat   
+limitBAMsortRAM                   31000000000
+outFileNamePrefix                 *_star_out
+outSAMtype                        BAM   SortedByCoordinate   
+outSAMattributes                  Standard   
+outSAMunmapped                    Within   
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode alignReads      --runThreadN 6   --genomeDir /gpfs1/cl/mmg232/MMG232/RNAseq/human_gencode_GRCh38/   --genomeLoad LoadAndKeep   --readFilesIn *-Seq_1.fastq.gz   *-Seq_2.fastq.gz      --readFilesCommand zcat      --limitBAMsortRAM 31000000000   --outFileNamePrefix *_star_out   --outSAMtype BAM   SortedByCoordinate      --outSAMattributes Standard      --outSAMunmapped Within   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+ls: cannot access *-Seq_1.fastq.gz: No such file or directory
+
+EXITING: because of fatal INPUT file error: could not open read file: *-Seq_1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+May 12 21:33:42 ...... FATAL ERROR, exiting
