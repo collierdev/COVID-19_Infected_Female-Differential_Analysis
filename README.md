@@ -12,7 +12,7 @@ Run from directory containing downlaoded reads.
 
 ## R Analysis
 
-walkthrough slides can be viewed at : collierdev.com/covid-19-differential/readme
+walkthrough slides can be viewed at: <a href="collierdev.com/covid-19-differential/readme"> Collier Dev </a>
 
 ### Images can be viewed directly under 'R_Analysis'
 
